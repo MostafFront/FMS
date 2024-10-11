@@ -1,0 +1,15 @@
+/* src/DragAndDrop.css */
+.drop-zone {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: stretch; /* Stretch items to fill width */
+  }
+  
+  .drop-zone.hover {
+    background-color: rgba(0, 255, 0, 0.1);
+  }
+  
