@@ -2,8 +2,8 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MostafFront.github.io/FMS",
   "type": "module",
+  "homepage": "https://MostafFront.github.io/FMS",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
